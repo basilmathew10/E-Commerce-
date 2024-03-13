@@ -1,4 +1,4 @@
-import 'package:ecommerceapp/Provider/cartprovider.dart';
+import 'package:ecommerceapp/Provider/CartProvider.dart';
 import 'package:ecommerceapp/Screens/CheckoutScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';

@@ -1,7 +1,7 @@
 import 'dart:developer';
 import 'package:collection/collection.dart';
 import 'package:ecommerceapp/Models/ProductModel.dart';
-import 'package:ecommerceapp/Provider/cartprovider.dart';
+import 'package:ecommerceapp/Provider/CartProvider.dart';
 import 'package:ecommerceapp/Screens/CartScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';

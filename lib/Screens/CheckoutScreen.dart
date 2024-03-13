@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:ecommerceapp/Models/UserModel.dart';
-import 'package:ecommerceapp/Provider/cartprovider.dart';
+import 'package:ecommerceapp/Provider/CartProvider.dart';
 import 'package:http/http.dart' as http;
 import 'package:ecommerceapp/Screens/HomeScreen.dart';
 import 'package:flutter/material.dart';
