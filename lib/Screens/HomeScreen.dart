@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:ecommerceapp/Models/ProductModel.dart';
 import 'package:ecommerceapp/Provider/cartprovider.dart';
 import 'package:ecommerceapp/Screens/CartScreen.dart';
-import 'package:ecommerceapp/Models/category_model.dart';
+import 'package:ecommerceapp/Models/CategoryModel.dart';
 import 'package:ecommerceapp/Screens/CategoryProducts.dart';
 import 'package:ecommerceapp/Screens/ProductDetails.dart';
 import 'package:flutter/material.dart';
