@@ -1,8 +1,8 @@
-import 'package:ecommerceapp/cartprovider.dart';
-import 'package:ecommerceapp/login.dart';
+import 'package:ecommerceapp/Provider/cartprovider.dart';
+import 'package:ecommerceapp/Screens/LoginScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ecommerceapp/homepage.dart';
+import 'package:ecommerceapp/Screens/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());

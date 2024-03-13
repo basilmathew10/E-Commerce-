@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:ecommerceapp/orderdetailsModel.dart';
+import 'package:ecommerceapp/Models/OrderDetailsModel.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart 'as http;
 import 'package:flutter/src/widgets/container.dart';

@@ -1,12 +1,12 @@
 import 'dart:developer';
 import 'package:collection/collection.dart';
-import 'package:ecommerceapp/cartpage.dart';
+import 'package:ecommerceapp/Models/ProductModel.dart';
+import 'package:ecommerceapp/Provider/cartprovider.dart';
+import 'package:ecommerceapp/Screens/CartScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:ecommerceapp/product_model.dart';
-import 'package:ecommerceapp/homepage.dart';
-import 'package:ecommerceapp/cartprovider.dart';
+import 'package:ecommerceapp/Screens/HomeScreen.dart';
 import 'package:provider/provider.dart';
 
 class ProductDetails extends StatelessWidget {

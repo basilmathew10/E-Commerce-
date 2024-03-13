@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:ecommerceapp/homepage.dart';
-import 'package:ecommerceapp/registration.dart';
+import 'package:ecommerceapp/Screens/HomeScreen.dart';
+import 'package:ecommerceapp/Screens/Registration.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;

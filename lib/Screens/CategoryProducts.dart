@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
-import 'package:ecommerceapp/productdetails.dart';
+import 'package:ecommerceapp/Models/ProductModel.dart';
+import 'package:ecommerceapp/Screens/ProductDetails.dart';
 import 'package:http/http.dart 'as http;
-import 'package:ecommerceapp/product_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';

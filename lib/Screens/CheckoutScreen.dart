@@ -1,17 +1,16 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:ecommerceapp/usermodel.dart';
+import 'package:ecommerceapp/Models/UserModel.dart';
+import 'package:ecommerceapp/Provider/cartprovider.dart';
 import 'package:http/http.dart' as http;
-import 'package:ecommerceapp/cartprovider.dart';
-import 'package:ecommerceapp/homepage.dart';
-// import 'package:flutter/cupertino.dart';
+import 'package:ecommerceapp/Screens/HomeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:ecommerceapp/usermodel.dart';
-import 'package:ecommerceapp/registration.dart';
+import 'package:ecommerceapp/Models/UserModel.dart';
+import 'package:ecommerceapp/Screens/Registration.dart';
    Future<UserModel?>fetchUser(String? username) async {
     try {
       final response = await http.post(Uri.parse('http://bootcamp.cyralearnings.com/get_user.php'),
